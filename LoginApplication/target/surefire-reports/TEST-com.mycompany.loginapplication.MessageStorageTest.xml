@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.loginapplication.MessageStorageTest" time="0.181" tests="20" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Student\OneDrive - ADvTECH Ltd\Documents\NetBeansProjects\LoginApplication\target\test-classes;C:\Users\Student\OneDrive - ADvTECH Ltd\Documents\NetBeansProjects\LoginApplication\target\classes;C:\Users\Student\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\Student\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\Student\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Student\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\Student\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\Student\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;C:\Users\Student\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Student\.m2\repository\com\google\code\gson\gson\2.14.0\gson-2.14.0.jar;C:\Users\Student\.m2\repository\com\google\errorprone\error_prone_annotations\2.48.0\error_prone_annotations-2.48.0.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Africa/Johannesburg"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Apache NetBeans\jdk\bin"/>
+    <property name="sun.java.command" value="C:\Users\Student\AppData\Local\Temp\surefire513497012993538471\surefirebooter-20261118150135117_3.jar C:\Users\Student\AppData\Local\Temp\surefire513497012993538471 2026-11-18T15-01-34_936-jvmRun1 surefire-20261118150135117_1tmp surefire_0-20261118150135117_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="com.mycompany.loginapplication.MessageStorageTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\Student\OneDrive - ADvTECH Ltd\Documents\NetBeansProjects\LoginApplication\target\test-classes;C:\Users\Student\OneDrive - ADvTECH Ltd\Documents\NetBeansProjects\LoginApplication\target\classes;C:\Users\Student\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.3\junit-jupiter-api-5.10.3.jar;C:\Users\Student\.m2\repository\org\junit\platform\junit-platform-commons\1.10.3\junit-platform-commons-1.10.3.jar;C:\Users\Student\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Student\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.3\junit-jupiter-params-5.10.3.jar;C:\Users\Student\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.3\junit-jupiter-engine-5.10.3.jar;C:\Users\Student\.m2\repository\org\junit\platform\junit-platform-engine\1.10.3\junit-platform-engine-1.10.3.jar;C:\Users\Student\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Student\.m2\repository\com\google\code\gson\gson\2.14.0\gson-2.14.0.jar;C:\Users\Student\.m2\repository\com\google\errorprone\error_prone_annotations\2.48.0\error_prone_annotations-2.48.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Student"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Apache NetBeans\jdk"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Student\OneDrive - ADvTECH Ltd\Documents\NetBeansProjects\LoginApplication"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Student\AppData\Local\Temp\surefire513497012993538471\surefirebooter-20261118150135117_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25.0.1+8-LTS"/>
+    <property name="user.name" value="Student"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-25.0.1+8"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\Apache NetBeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\Student\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Student\AppData\Local\Temp\"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="C:\Users\Student\OneDrive - ADvTECH Ltd\Documents\NetBeansProjects\LoginApplication"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Apache NetBeans\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\180\Tools\Binn\;C:\Program Files\Microsoft SQL Server\170\DTS\Binn\;C:\Program Files\php-8.5.2-Win32-vs17-x64;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Student\AppData\Local\Microsoft\WindowsApps;C:\Users\Student\AppData\Roaming\npm;C:\Users\Student\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Student\.dotnet\tools;C:\Users\Student\AppData\Roaming\npm;C:\Program Files (x86)\MongoDB Atlas CLI\;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="25.0.1+8-LTS"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="test01_listsEmptyAtStart" classname="com.mycompany.loginapplication.MessageStorageTest" time="0.033"/>
+  <testcase name="test04_routeStoredMessage" classname="com.mycompany.loginapplication.MessageStorageTest" time="0.002"/>
+  <testcase name="test09_displayLongestMultiple" classname="com.mycompany.loginapplication.MessageStorageTest" time="0.011">
+    <system-out><![CDATA[
+===== LONGEST STORED MESSAGE =====
+Message ID: A2
+Recipient: +27830000002
+Message: "Much longer message here"
+Length: 24 characters
+]]></system-out>
+  </testcase>
+  <testcase name="test12_searchByIdNotFound" classname="com.mycompany.loginapplication.MessageStorageTest" time="0.002">
+    <system-out><![CDATA[
+===== SEARCH RESULTS =====
+No message found with ID: ZZZZZ
+]]></system-out>
+  </testcase>
+  <testcase name="test08_displayLongestEmpty" classname="com.mycompany.loginapplication.MessageStorageTest" time="0.001">
+    <system-out><![CDATA[
+===== LONGEST STORED MESSAGE =====
+No stored messages found.
+]]></system-out>
+  </testcase>
+  <testcase name="test10_displayLongestSingle" classname="com.mycompany.loginapplication.MessageStorageTest" time="0.002">
+    <system-out><![CDATA[
+===== LONGEST STORED MESSAGE =====
+Message ID: S1
+Recipient: +27830000001
+Message: "Only one"
+Length: 8 characters
+]]></system-out>
+  </testcase>
+  <testcase name="test02_routeSentMessage" classname="com.mycompany.loginapplication.MessageStorageTest" time="0.001"/>
+  <testcase name="test05_routeNullSafe" classname="com.mycompany.loginapplication.MessageStorageTest" time="0.004"/>
+  <testcase name="test17_fullReportEmpty" classname="com.mycompany.loginapplication.MessageStorageTest" time="0.002">
+    <system-out><![CDATA[
+
+==================================================
+           FULL MESSAGE REPORT                     
+==================================================
+
+--- SENT MESSAGES ---
+No sent messages.
+
+--- DISREGARDED MESSAGES ---
+No disregarded messages.
+
+--- STORED MESSAGES ---
+No stored messages.
+==================================================
+
+]]></system-out>
+  </testcase>
+  <testcase name="test19_menuMethodExists" classname="com.mycompany.loginapplication.MessageStorageTest" time="0.004"/>
+  <testcase name="test11_searchByIdFound" classname="com.mycompany.loginapplication.MessageStorageTest" time="0.005">
+    <system-out><![CDATA[
+===== SEARCH RESULTS =====
+Recipient: +27831112223
+Message: "Found me"
+]]></system-out>
+  </testcase>
+  <testcase name="test06_displayRecipientsEmpty" classname="com.mycompany.loginapplication.MessageStorageTest" time="0.002">
+    <system-out><![CDATA[
+===== ALL STORED MESSAGES =====
+No stored messages found.
+]]></system-out>
+  </testcase>
+  <testcase name="test15_deleteByHashSuccess" classname="com.mycompany.loginapplication.MessageStorageTest" time="0.004">
+    <system-out><![CDATA[Message successfully deleted.
+]]></system-out>
+  </testcase>
+  <testcase name="test13_searchByRecipientFound" classname="com.mycompany.loginapplication.MessageStorageTest" time="0.006">
+    <system-out><![CDATA[
+===== MESSAGES TO: +27835556667 =====
+"First"
+"Second"
+]]></system-out>
+  </testcase>
+  <testcase name="test03_routeDisregardedMessage" classname="com.mycompany.loginapplication.MessageStorageTest" time="0.002"/>
+  <testcase name="test14_searchByRecipientNone" classname="com.mycompany.loginapplication.MessageStorageTest" time="0.004">
+    <system-out><![CDATA[
+===== MESSAGES TO: +27999888776 =====
+No messages found for this recipient.
+]]></system-out>
+  </testcase>
+  <testcase name="test16_deleteByHashWrong" classname="com.mycompany.loginapplication.MessageStorageTest" time="0.003">
+    <system-out><![CDATA[No message found with that hash.
+]]></system-out>
+  </testcase>
+  <testcase name="test18_fullReportWithData" classname="com.mycompany.loginapplication.MessageStorageTest" time="0.007">
+    <system-out><![CDATA[
+
+==================================================
+           FULL MESSAGE REPORT                     
+==================================================
+
+--- SENT MESSAGES ---
+[S1] To: +27831111111 — "Sent text"
+
+--- DISREGARDED MESSAGES ---
+[D1] "Discarded text"
+
+--- STORED MESSAGES ---
+Message ID     | Recipient        | Hash       | Message
+-----------------------------------------------------------
+T1             | +27832222222     | h1         | Stored text
+==================================================
+
+]]></system-out>
+  </testcase>
+  <testcase name="test20_listsIndependent" classname="com.mycompany.loginapplication.MessageStorageTest" time="0.003"/>
+  <testcase name="test07_displayRecipientsWithMessages" classname="com.mycompany.loginapplication.MessageStorageTest" time="0.004">
+    <system-out><![CDATA[
+===== ALL STORED MESSAGES =====
+Message ID      | Recipient           
+----------------------------------------
+001             | +27831234567        
+002             | +27839876543        
+]]></system-out>
+  </testcase>
+</testsuite>
